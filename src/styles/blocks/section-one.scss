@@ -1,0 +1,27 @@
+.sectionone {
+    &__title {
+        font-weight: bold;
+        font-size: 78px;
+        text-transform: uppercase;
+        word-break: break-all;
+    }
+    &__subtitle {
+        font-size: 38px;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+    }
+    &__p {
+        margin-bottom: 90px;
+        font-size: 14px;
+        &:last-child {
+            margin-right: 0;
+        }
+        &_mb {
+            margin-bottom: 130px;
+            margin-right: 0;
+        }
+        @include tablet() {
+            margin-bottom: 20px;
+        }
+    }
+}

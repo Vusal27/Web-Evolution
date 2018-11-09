@@ -1,0 +1,36 @@
+.sectiontwo {
+    &__title {
+        font-size: 78px;
+        margin-bottom: 130px;
+        font-weight: bold;
+        text-transform: uppercase;
+        @include tablet() {
+            margin-bottom: 70px;
+            word-break: break-all;
+        }
+    }
+    &__el {
+        margin-bottom: 70px;
+        @include tablet() {
+            margin-bottom: 35px;
+            text-align: center;
+        }
+    }
+    &__btn {
+        font-size: 22px;
+        font-weight: bold;
+        color: white;
+        background: black;
+        padding: 16px 0;
+        border-radius: 5px;
+        border: black;
+        margin-bottom: 70px;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+    &__pic {
+        @include tablet() {
+            width: 80%;
+        }
+    }
+}

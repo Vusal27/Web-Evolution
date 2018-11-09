@@ -1,0 +1,17 @@
+.sectionfive {
+    margin-bottom: 200px;
+    &__item {
+        height: 315px;
+        border: 1px solid black;
+        margin: 0 3%;
+        @include tablet() {
+            margin: 15px 3%;
+        }
+        &_cred {
+            background: red;
+            @include tablet() {
+                order: -1;
+            }
+        }
+    }
+}
